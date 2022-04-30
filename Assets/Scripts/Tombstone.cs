@@ -8,12 +8,25 @@ public class Tombstone : MonoBehaviour
     public Transform destination;
     public GameObject player;
 
+    public GameObject PressE;
+
+    void OnTriggerEnter(Collider col)
+    {
+        PressE.SetActive(true);
+    }
+
+        void OnTriggerExit(Collider col)
+    {
+        PressE.SetActive(false);
+    }
+
     void OnTriggerStay(Collider col){
 
         if(col.CompareTag("Player"))
         {
             if (Input.GetKey(KeyCode.E))
             {
+                PressE.SetActive(false);
                 Debug.Log("Collided");
                 FindObjectOfType<AudioManager>().Play("Ground Transfer 1"); 
                 FindObjectOfType<AudioManager>().Stop("Rain"); 

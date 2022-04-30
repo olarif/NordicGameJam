@@ -9,12 +9,25 @@ public class Tombstone2D : MonoBehaviour
     public Transform destination;
     public GameObject player;
 
+    public GameObject PressE;
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        PressE.SetActive(true);
+    }
+
+        void OnTriggerExit2D(Collider2D col)
+    {
+        PressE.SetActive(false);
+    }
+
     void OnTriggerStay2D(Collider2D col){
 
         if(col.CompareTag("Player")){
 
             if(Input.GetKey(KeyCode.E)){
 
+                PressE.SetActive(false);
                 Debug.Log("Collided");
                 FindObjectOfType<AudioManager>().Play("Ground Transfer 2"); 
                 FindObjectOfType<AudioManager>().Play("Rain"); 

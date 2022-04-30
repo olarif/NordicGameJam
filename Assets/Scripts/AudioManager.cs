@@ -36,7 +36,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         // Use this to call from any script
-        //FindObjectOfType<AudioManager>().Play("Example Sound");   
+        //FindObjectOfType<AudioManager>().Play("Thunder");   
     }
 
     public void Play(string name)
@@ -44,5 +44,12 @@ public class AudioManager : MonoBehaviour
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null) return;
         s.source.Play();
+    }
+
+    public void Stop(string name){
+
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        if (s == null) return;
+        s.source.Stop();
     }
 }

@@ -21,7 +21,6 @@ public class SwitchPerspective : MonoBehaviour
     {
         Debug.Log("Going Down");
         mainCam.orthographic = true;
-        //underGroundPlayer.transform.position = new Vector3(0,0,0);
         aboveGroundPlayer.SetActive(false);
         underGroundPlayer.SetActive(true);
 

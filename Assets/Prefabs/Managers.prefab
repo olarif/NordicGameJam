@@ -45,6 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 879d67a4878088a408858e150ed3afc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upCam: {fileID: 0}
+  downCam: {fileID: 0}
 --- !u!114 &2833553976041737480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,3 +59,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f52766e1425594c88f7b8b2e4bc186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sounds:
+  - name: Music
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 4325b978ab53cdd4b99257d53f5b96bc, type: 3}
+    loop: 1
+    volume: 1
+    pitch: 1
+    panStereo: 0
+  - name: Ground Transfer 1
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 227d9b2375c1553498b3a51c911d8f7b, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    panStereo: 0
+  - name: Ground Transfer 2
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 26effa831f27eaa4487303004fcd9f45, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    panStereo: 0

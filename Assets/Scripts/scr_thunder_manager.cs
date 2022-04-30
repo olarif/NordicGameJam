@@ -20,6 +20,7 @@ public class scr_thunder_manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        FindObjectOfType<AudioManager>().Play("Rain");
         thunderTimer = maxThunder;
         lightningTriger = maxLightning;
         thunderReset = maxThunder;
@@ -59,6 +60,7 @@ public class scr_thunder_manager : MonoBehaviour
     public void Thunder()
     {
         Debug.Log("Thunder");
+        FindObjectOfType<AudioManager>().Play("Thunder");
     }
 
     public void Lightning()

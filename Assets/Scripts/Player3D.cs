@@ -21,6 +21,7 @@ public class Player3D : MonoBehaviour
     void Start()
     {
         FindObjectOfType<AudioManager>().Play("Music"); 
+        FindObjectOfType<AudioManager>().Play("Rain");
     }
 
 

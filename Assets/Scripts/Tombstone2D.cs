@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Tombstone : MonoBehaviour
+public class Tombstone2D : MonoBehaviour
 {
 
     public UnityEvent entryEvent;
@@ -21,14 +21,14 @@ public class Tombstone : MonoBehaviour
         
     }
 
-    void OnTriggerEnter(Collider col){
+    void OnTriggerEnter2D(Collider2D col){
 
         if(col.CompareTag("Player")){
 
             Debug.Log("Collided");
-            //player.transform.Find("Player3D").gameObject.transform.position = new Vector3(0,0,0);
             //player.transform.Find("Player2D").gameObject.transform.position = new Vector3(0,0,0);
-            player.transform.Find("Player2D").gameObject.transform.position = destination.transform.position;
+            //player.transform.Find("Player3D").gameObject.transform.position = new Vector3(0,0,0);
+            player.transform.Find("Player3D").gameObject.transform.position = destination.transform.position;
             entryEvent.Invoke();
             
         }

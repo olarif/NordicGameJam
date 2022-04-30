@@ -9,10 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7115878147778625224}
-  - component: {fileID: 8467865014716209227}
   - component: {fileID: 2833553976041737480}
   m_Layer: 0
-  m_Name: Managers
+  m_Name: AudioManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,20 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8467865014716209227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8757390055278852334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 879d67a4878088a408858e150ed3afc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  upCam: {fileID: 0}
-  downCam: {fileID: 0}
 --- !u!114 &2833553976041737480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,7 +49,7 @@ MonoBehaviour:
     source: {fileID: 0}
     clip: {fileID: 8300000, guid: 4325b978ab53cdd4b99257d53f5b96bc, type: 3}
     loop: 1
-    volume: 1
+    volume: 0.5
     pitch: 1
     panStereo: 0
   - name: Ground Transfer 1
@@ -81,24 +66,10 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     panStereo: 0
-  - name: Rain
+  - name: Scream1
     source: {fileID: 0}
-    clip: {fileID: 8300000, guid: 317469eb6b2428c449b61b0f831c5d77, type: 3}
+    clip: {fileID: 8300000, guid: 1c06c09358ea59845b9691fa440dcb14, type: 3}
     loop: 1
-    volume: 0.5
-    pitch: 1
-    panStereo: 0
-  - name: Underground
-    source: {fileID: 0}
-    clip: {fileID: 8300000, guid: 32fa1541a8df70648a9a0fc95daf2c7c, type: 3}
-    loop: 1
-    volume: 0.5
-    pitch: 1
-    panStereo: 0
-  - name: Thunder
-    source: {fileID: 0}
-    clip: {fileID: 8300000, guid: 47e2bae2b328d3743a92b10a8fc3ff9a, type: 3}
-    loop: 0
     volume: 1
     pitch: 1
     panStereo: 0

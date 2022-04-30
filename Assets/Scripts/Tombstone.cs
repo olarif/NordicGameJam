@@ -7,6 +7,18 @@ public class Tombstone : MonoBehaviour
 {
     public Transform destination;
     public GameObject player;
+    public GameObject PressE;
+
+    void OnTriggerEnter(Collider col)
+    {
+        PressE.SetActive(true);
+    }
+
+        void OnTriggerExit(Collider col)
+    {
+        PressE.SetActive(false);
+    }
+
 
     void OnTriggerStay(Collider col){
 
@@ -15,6 +27,7 @@ public class Tombstone : MonoBehaviour
             if (Input.GetKey(KeyCode.E))
             {
                 Debug.Log("Collided");
+                PressE.SetActive(false);
                 FindObjectOfType<AudioManager>().Play("Ground Transfer 1"); 
                 FindObjectOfType<AudioManager>().Stop("Rain"); 
                 player.transform.Find("Player2D").gameObject.transform.position = destination.transform.position;

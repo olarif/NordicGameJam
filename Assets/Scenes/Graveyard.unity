@@ -4861,7 +4861,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.843891, y: 1.9890001, z: -15.93}
+  m_LocalPosition: {x: -9.59, y: 3.14, z: -10.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22339,14 +22339,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8480711851136684, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
-      propertyPath: m_Lens.m_SensorSize.x
-      value: 1.7785528
-      objectReference: {fileID: 0}
-    - target: {fileID: 8480712298299385, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
-      propertyPath: m_Lens.m_SensorSize.x
-      value: 1.7785528
-      objectReference: {fileID: 0}
     - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: mainCam
       value: 
@@ -22357,15 +22349,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085069, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.92
+      value: -9.59
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085069, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.613
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085069, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.7
+      value: -10.3
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085069, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: m_LocalRotation.w

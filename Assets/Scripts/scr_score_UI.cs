@@ -12,7 +12,7 @@ public class scr_score_UI : MonoBehaviour
     {
         scoreText.text = score.ToString();
         //testing
-        score = score + 1;
+        //score = score + 1;
     }
 }
 

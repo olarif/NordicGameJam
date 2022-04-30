@@ -81,3 +81,24 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     panStereo: 0
+  - name: Rain
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 317469eb6b2428c449b61b0f831c5d77, type: 3}
+    loop: 1
+    volume: 0.5
+    pitch: 1
+    panStereo: 0
+  - name: Underground
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 32fa1541a8df70648a9a0fc95daf2c7c, type: 3}
+    loop: 1
+    volume: 0.5
+    pitch: 1
+    panStereo: 0
+  - name: Thunder
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 47e2bae2b328d3743a92b10a8fc3ff9a, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    panStereo: 0

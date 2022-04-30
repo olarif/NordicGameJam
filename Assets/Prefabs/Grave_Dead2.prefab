@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1020810564693035798}
   - component: {fileID: 1245015474066808173}
-  - component: {fileID: 8377286396737690162}
   m_Layer: 0
   m_Name: Grave_back
   m_TagString: Untagged
@@ -85,18 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8377286396737690162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2962661325979338154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933d0a69687895040b3607f2a94cb885, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4143811695527663232
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,7 +94,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2155454364688284310}
   - component: {fileID: 3445052236537460398}
-  - component: {fileID: 8642855444199065758}
   m_Layer: 0
   m_Name: Grave_Dead2
   m_TagString: Untagged
@@ -124,7 +110,7 @@ Transform:
   m_GameObject: {fileID: 4143811695527663232}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1020810564693035798}
@@ -183,15 +169,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8642855444199065758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4143811695527663232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933d0a69687895040b3607f2a94cb885, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

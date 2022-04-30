@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2755522089945295836}
   - component: {fileID: 6048733981416387863}
-  - component: {fileID: 7348348692462871515}
   m_Layer: 0
   m_Name: Grave_Grave1
   m_TagString: Untagged
@@ -27,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 2884204798459736522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3382770964698372045}
@@ -86,18 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7348348692462871515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2884204798459736522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933d0a69687895040b3607f2a94cb885, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8037046892685639809
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,7 +95,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3382770964698372045}
   - component: {fileID: 3380752981860429560}
-  - component: {fileID: 8308238843911560942}
   m_Layer: 0
   m_Name: Grave_back
   m_TagString: Untagged
@@ -183,15 +169,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8308238843911560942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8037046892685639809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933d0a69687895040b3607f2a94cb885, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

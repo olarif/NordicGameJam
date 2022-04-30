@@ -5,24 +5,12 @@ using UnityEngine;
 public class TriggerArea : MonoBehaviour
 {
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void OnTriggerEnter (Collider col)
     {
         if(col.CompareTag("Player"))
         {
             FindObjectOfType<AudioManager>().Play("Scream1");   
+            StartCoroutine(countdown());
             Debug.Log("Entered");
         }
 
@@ -34,6 +22,14 @@ public class TriggerArea : MonoBehaviour
         {
             Debug.Log("Exited");
         }
+
+    }
+
+    private IEnumerator countdown()
+    {
+        yield return new WaitForSeconds(3);
+        FindObjectOfType<AudioManager>().Play("Scream2");
+        this.transform.parent.gameObject.SetActive(false);
 
     }
 }

@@ -76,7 +76,7 @@ MonoBehaviour:
   - name: Rain
     source: {fileID: 0}
     clip: {fileID: 8300000, guid: 317469eb6b2428c449b61b0f831c5d77, type: 3}
-    loop: 0
+    loop: 1
     volume: 1
     pitch: 1
     panStereo: 0

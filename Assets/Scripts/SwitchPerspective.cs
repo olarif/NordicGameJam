@@ -14,6 +14,7 @@ public class SwitchPerspective : MonoBehaviour
     void Start()
     {
         aboveGroundPlayer.SetActive(true);
+         FindObjectOfType<AudioManager>().Play("Rain");
         underGroundPlayer.SetActive(false);
     }
 
@@ -21,6 +22,9 @@ public class SwitchPerspective : MonoBehaviour
     {
         Debug.Log("Going Down");
         mainCam.orthographic = true;
+        //underGroundPlayer.transform.position = new Vector3(0,0,0);
+        FindObjectOfType<AudioManager>().Play("Underground");
+        FindObjectOfType<AudioManager>().Stop("Rain");
         aboveGroundPlayer.SetActive(false);
         underGroundPlayer.SetActive(true);
 
@@ -30,8 +34,8 @@ public class SwitchPerspective : MonoBehaviour
     {
         Debug.Log("Going Up");
         mainCam.orthographic = false;
-        aboveGroundPlayer.SetActive(true);
-        underGroundPlayer.SetActive(false);
+        FindObjectOfType<AudioManager>().Play("Rain");
+        FindObjectOfType<AudioManager>().Stop("Underground");
     }
 
     // Update is called once per frame

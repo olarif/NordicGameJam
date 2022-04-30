@@ -20,7 +20,7 @@ public class scr_thunder_manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        FindObjectOfType<AudioManager>().Play("Rain");
+        //FindObjectOfType<AudioManager>().Play("Rain");
         thunderTimer = maxThunder;
         lightningTriger = maxLightning;
         thunderReset = maxThunder;

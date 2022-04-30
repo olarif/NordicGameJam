@@ -76,7 +76,7 @@ public class scr_2d_Movement : MonoBehaviour
     {
         if(col.CompareTag("ladder"))
         { 
-          if (Input.GetButton("Jump"))
+          if (Input.GetKey(KeyCode.E))
           {
             Debug.Log("ladder triggered");
             //Triger Ladder !!!!!!!!!

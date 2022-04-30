@@ -36,6 +36,9 @@ public class SwitchPerspective : MonoBehaviour
         mainCam.orthographic = false;
         FindObjectOfType<AudioManager>().Play("Rain");
         FindObjectOfType<AudioManager>().Stop("Underground");
+        aboveGroundPlayer.SetActive(true);
+        underGroundPlayer.SetActive(false);
+
     }
 
     // Update is called once per frame

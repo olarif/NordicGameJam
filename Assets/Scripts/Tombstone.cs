@@ -19,9 +19,15 @@ public class Tombstone : MonoBehaviour
                 FindObjectOfType<AudioManager>().Stop("Rain"); 
                 player.transform.Find("Player2D").gameObject.transform.position = destination.transform.position;
                 player.GetComponent<SwitchPerspective>().GoDown();
+                StartCoroutine(cooldown());
             }
 
         }
+    }
+
+    private IEnumerator cooldown(){
+
+        yield return new WaitForSeconds(1f);
     }
 
 }

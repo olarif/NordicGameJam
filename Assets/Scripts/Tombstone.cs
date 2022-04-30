@@ -14,6 +14,7 @@ public class Tombstone : MonoBehaviour
 
             Debug.Log("Collided");
             FindObjectOfType<AudioManager>().Play("Ground Transfer 1"); 
+            FindObjectOfType<AudioManager>().Stop("Rain"); 
             player.transform.Find("Player2D").gameObject.transform.position = destination.transform.position;
             player.GetComponent<SwitchPerspective>().GoDown();
         }

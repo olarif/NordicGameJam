@@ -373,7 +373,6 @@ GameObject:
   - component: {fileID: 832530741658806276}
   - component: {fileID: 832530741658806299}
   - component: {fileID: 832530741658806298}
-  - component: {fileID: 6504984900686586241}
   m_Layer: 5
   m_Name: Main Screen UI
   m_TagString: Untagged
@@ -466,26 +465,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &6504984900686586241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832530741658806297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcf3416b36966e44dba4b42179b0dfa8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxThunder: 20
-  minThunder: 10
-  decreaseThunder: 2
-  maxLightning: 10
-  minLightning: 5
-  decreaseLightning: 1
-  aboveGround: 0
-  lightningEffect: {fileID: 832530740052865204}
 --- !u!1 &832530741775188962
 GameObject:
   m_ObjectHideFlags: 0

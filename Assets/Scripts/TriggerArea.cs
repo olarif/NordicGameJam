@@ -30,6 +30,7 @@ public class TriggerArea : MonoBehaviour
         yield return new WaitForSeconds(3);
         FindObjectOfType<AudioManager>().Play("Scream2");
         yield return new WaitForSeconds(.2f);
+        ScoreManager.instance.AddPoint(25);
         this.transform.parent.gameObject.SetActive(false);
 
     }

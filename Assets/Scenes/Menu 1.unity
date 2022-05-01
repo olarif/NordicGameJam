@@ -322,7 +322,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Your Dead
+  m_text: You're Dead
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 22708802d85eedb46b11385a2c67462f, type: 2}
   m_sharedMaterial: {fileID: 4709851724335930366, guid: 22708802d85eedb46b11385a2c67462f, type: 2}
@@ -1122,7 +1122,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reply
+  m_text: Replay
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 22708802d85eedb46b11385a2c67462f, type: 2}
   m_sharedMaterial: {fileID: 4709851724335930366, guid: 22708802d85eedb46b11385a2c67462f, type: 2}

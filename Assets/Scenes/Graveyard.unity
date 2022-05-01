@@ -4178,7 +4178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 527378479}
-  highScoreText: {fileID: 1476631244}
+  highScoreText: {fileID: 0}
 --- !u!1001 &386891344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15973,6 +15973,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 862f4795cfe6ee041966d537a98b800e, type: 3}
+--- !u!1 &1136459119 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 832530740052865204, guid: 862f4795cfe6ee041966d537a98b800e, type: 3}
+  m_PrefabInstance: {fileID: 1136459118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1140987647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18927,17 +18932,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8031339192871210686, guid: 3f9b178ccd3b86f4ebbfc1f5a2815e56, type: 3}
   m_PrefabInstance: {fileID: 439297851}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1476631244 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1476631244, guid: 862f4795cfe6ee041966d537a98b800e, type: 3}
-  m_PrefabInstance: {fileID: 1136459118}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1483637984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25502,6 +25496,26 @@ PrefabInstance:
       propertyPath: mainCam
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
+      propertyPath: maxThunder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
+      propertyPath: minThunder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
+      propertyPath: maxLightning
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
+      propertyPath: minLightning
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
+      propertyPath: lightningEffect
+      value: 
+      objectReference: {fileID: 1136459119}
     - target: {fileID: 8480713269085069, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: m_RootOrder
       value: 6

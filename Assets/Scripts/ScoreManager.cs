@@ -12,6 +12,8 @@ public class ScoreManager : MonoBehaviour
     public TMP_Text scoreText;
     public TMP_Text highScoreText;
 
+    public GameObject scorePopup;
+
     int score = 0;
     int highScore = 0;
 
@@ -32,10 +34,20 @@ public class ScoreManager : MonoBehaviour
     {
         score += points;
         scoreText.text = score.ToString();
+        
 
         if(highScore < score){
             PlayerPrefs.SetInt("highscore", score);
         }
+
+        scorePopup.SetActive(true);
+        StartCoroutine(wait());
+    }
+
+    private IEnumerator wait(){
+
+        yield return new WaitForSeconds(1);
+        scorePopup.SetActive(false);
     }
 
     void Update()

@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 0
   m_FogColor: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.15
+  m_FogDensity: 0.2
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -5998,7 +5998,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.96, y: 2.21, z: -3.79}
+  m_LocalPosition: {x: -0.06, y: 2.21, z: -3.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7077,7 +7077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5676467910971855847, guid: 95fb5977c8820134da9568a2e0fd2a2b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.482498
+      value: -13.72
       objectReference: {fileID: 0}
     - target: {fileID: 5676467910971855847, guid: 95fb5977c8820134da9568a2e0fd2a2b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9509,7 +9509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9193736608406969751, guid: 4c7a3d19419958945985f6866635f9c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.67
+      value: 9.600006
       objectReference: {fileID: 0}
     - target: {fileID: 9193736608406969751, guid: 4c7a3d19419958945985f6866635f9c7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15989,7 +15989,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134763646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.379, y: 0, z: 0}
   m_LocalScale: {x: 0.4958, y: 0.4958, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21784,6 +21784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 933289993213518493, guid: 7f05879358420694daacfb39e2b9a41b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 18c2c41c335b8804fb252ce48b7d1cbe, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f05879358420694daacfb39e2b9a41b, type: 3}
 --- !u!4 &1780309943 stripped
@@ -22259,7 +22263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5676467910971855847, guid: 95fb5977c8820134da9568a2e0fd2a2b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.53571
+      value: -7.11
       objectReference: {fileID: 0}
     - target: {fileID: 5676467910971855847, guid: 95fb5977c8820134da9568a2e0fd2a2b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25823,7 +25827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8480711851136684, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.7785528
+      value: 1.778088
       objectReference: {fileID: 0}
     - target: {fileID: 8480712056266457, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: m_SortingOrder
@@ -25831,7 +25835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8480712298299385, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.7785528
+      value: 1.778088
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: mainCam
@@ -25843,11 +25847,11 @@ PrefabInstance:
       objectReference: {fileID: 847041340}
     - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: maxThunder
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: minThunder
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: maxLightning
@@ -25855,7 +25859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: minLightning
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: lightningEffect
@@ -25867,7 +25871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085069, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.96
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085069, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: m_LocalPosition.y

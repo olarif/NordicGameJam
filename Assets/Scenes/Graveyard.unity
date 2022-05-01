@@ -25847,11 +25847,11 @@ PrefabInstance:
       objectReference: {fileID: 847041340}
     - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: maxThunder
-      value: 20
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: minThunder
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8480713269085068, guid: ef8d57694f06e724d9b8828e00583fbc, type: 3}
       propertyPath: maxLightning

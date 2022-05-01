@@ -7,14 +7,15 @@ public class SwitchPerspective : MonoBehaviour
     public float maxThunder = 20f;
     public float minThunder = 10f;
     public float decreaseThunder = 2f;
-    public float maxLightning = 10f;
-    public float minLightning = 5f;
-    public float decreaseLightning = 1f;
+    public float maxLightning = 4f;
+    public float minLightning = 4f;
+    public float decreaseLightning = 0f;
     public GameObject lightningEffect;
+    public GameObject yourDead;
 
-    float thunderTimer;
-    float thunderReset;
-    float lightningTriger;
+    float thunderTimer = 10;
+    float thunderReset = 10;
+    float lightningTriger = 4;
     float lightningTimerReset = 0.5f;
     float lightningTimer = 0.5f;
     bool lightningFlip = true;
@@ -37,6 +38,11 @@ public class SwitchPerspective : MonoBehaviour
         thunderTimer = maxThunder;
         lightningTriger = maxLightning;
         thunderReset = maxThunder;
+
+        if (Time.timeScale != 0.01f)
+        {
+            Time.timeScale = 1f;
+        }
 
     }
 
@@ -91,7 +97,7 @@ public class SwitchPerspective : MonoBehaviour
         if (onSwitch == true)
         {
             thunderTimer -= Time.deltaTime;
-            Debug.Log(thunderTimer);
+            //Debug.Log(thunderTimer);
 
             if (thunderTimer < lightningTriger)
             {
@@ -120,13 +126,14 @@ public class SwitchPerspective : MonoBehaviour
         if (aboveGround == true) 
         {
             Debug.Log("Your Dead");
+            yourDead.SetActive(true);
         }
         lightningEffect.SetActive(false);
     }
 
     public void Lightning()
     {
-        Debug.Log("Lightning" + thunderTimer);
+        //Debug.Log("Lightning" + thunderTimer);
         //activate lightning
         //decrease timer
         //deactivate timer 

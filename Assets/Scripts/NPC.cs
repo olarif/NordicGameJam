@@ -36,9 +36,6 @@ public class NPC : MonoBehaviour
 
             agent.SetDestination(newPos);
 
-        } else {
-
-            renderer.sprite = frontSprite;
         }
 
     }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ladder
   - Player3D
+  - NPC
   layers:
   - Default
   - TransparentFX

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5692862518249774257}
   m_Layer: 0
   m_Name: NPC
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,6 +113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088535c8142fda946acc2f57b2f29cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  renderer: {fileID: 5692862518249774270}
+  frontSprite: {fileID: 813230036, guid: 2f0bc35b75c9d5746bc6c823311aead0, type: 3}
+  backSprite: {fileID: -216257945, guid: 2f0bc35b75c9d5746bc6c823311aead0, type: 3}
   EnemyDistanceRun: 6
 --- !u!195 &5692862518249774258
 NavMeshAgent:

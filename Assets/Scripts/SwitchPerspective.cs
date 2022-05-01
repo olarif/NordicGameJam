@@ -69,6 +69,9 @@ public class SwitchPerspective : MonoBehaviour
         aboveGroundPlayer.SetActive(true);
         underGroundPlayer.SetActive(false);
 
+        Spawner.instance.DestroyAllObjects();
+        Spawner.instance.Spawn();
+
         aboveGround = true;
 
     }

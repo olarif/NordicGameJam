@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
+
+    new public SpriteRenderer renderer;
     private UnityEngine.AI.NavMeshAgent agent;
+
+    public Sprite frontSprite;
+    public Sprite backSprite;
 
     private GameObject player;
 
@@ -22,12 +27,18 @@ public class NPC : MonoBehaviour
         
         if(distance < EnemyDistanceRun)
         {
+
+            renderer.sprite = backSprite;
+
             Vector3 dirToPlayer = transform.position - player.transform.position;
 
             Vector3 newPos = transform.position + dirToPlayer;
 
             agent.SetDestination(newPos);
 
+        } else {
+
+            renderer.sprite = frontSprite;
         }
 
     }

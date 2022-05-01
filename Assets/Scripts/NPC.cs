@@ -6,12 +6,13 @@ public class NPC : MonoBehaviour
 {
     private UnityEngine.AI.NavMeshAgent agent;
 
-    public GameObject player;
+    private GameObject player;
 
     public float EnemyDistanceRun = 4.0f;
 
     void Start()
     {
+        player = GameObject.Find("Player3D");
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
